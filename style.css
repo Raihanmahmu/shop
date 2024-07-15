@@ -1,0 +1,79 @@
+.box{
+    width: 250px;
+    box-shadow:3px 3px 30px #e4c5c5 ;
+}
+
+.box .contains span{
+    background-color: #6E2594;
+    display: inline-block;
+    color: white;
+    padding: 2px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box .images{
+    text-align: center;
+}
+
+.box .images img{
+    width: 230px;
+}
+
+.box .tag{
+    padding: 10px;
+}
+
+.box .tag h4 a{
+    font-family: cursive ;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.box .tag h4 a:hover{
+    color: blue;
+}
+
+.box .price{
+    text-align: center;
+    padding: 10px;
+}
+
+.box .price .push1{
+    color: green;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.box .price .push2{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.box button{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.box .rmf{
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.box .rmf:hover{
+    background-color: rgb(0, 255, 0, 680);
+    color: white;
+    cursor: pointer;
+}
+
+.box .rmf2:hover{
+    background-color: deepskyblue;
+    color: black;
+    cursor: pointer;
+}
